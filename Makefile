@@ -13,6 +13,7 @@ ${GENERATORS_SNOWBALL}: srfi-121/generators/*
                    --maintainers="Kevin Wortman <kwortman@gmail.com>"         \
                    --doc=srfi-121/srfi-121.html                               \
                    --description="Generators"                                 \
+                   --test=srfi-121/generators/generators-test.scm             \
                    srfi-121/generators/generators.sld
 
 clean:

@@ -1,3 +1,6 @@
 [submodule "srfi-121"]
 	path = srfi-121
 	url = https://github.com/scheme-requests-for-implementation/srfi-121
+[submodule "srfi-128"]
+	path = srfi-128
+	url = https://github.com/scheme-requests-for-implementation/srfi-128

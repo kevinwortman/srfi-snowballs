@@ -2,7 +2,7 @@
 COMPARATORS_VERSION = 1.0.0
 COMPARATORS_SNOWBALL = comparators-${COMPARATORS_VERSION}.tgz
 
-GENERATORS_VERSION = 1.0.1
+GENERATORS_VERSION = 1.0.2
 GENERATORS_SNOWBALL = generators-${GENERATORS_VERSION}.tgz
 
 ALL_SNOWBALLS = ${COMPARATORS_SNOWBALL} ${GENERATORS_SNOWBALL}
@@ -26,7 +26,6 @@ ${GENERATORS_SNOWBALL}: srfi-121/generators/*
                    --maintainers="Kevin Wortman <kwortman@gmail.com>"         \
                    --doc=srfi-121/srfi-121.html                               \
                    --description="SRFI 121: Generators reference implementation" \
-                   --test=srfi-121/generators/generators-test.scm             \
                    srfi-121/generators/generators.sld
 
 clean:
